@@ -1,14 +1,8 @@
-module.exports = {
-  plugins: {
-    'postcss-preset-mantine': {},
-    'postcss-simple-vars': {
-      variables: {
-        'mantine-breakpoint-xs': '36em',
-        'mantine-breakpoint-sm': '48em',
-        'mantine-breakpoint-md': '62em',
-        'mantine-breakpoint-lg': '75em',
-        'mantine-breakpoint-xl': '88em',
-      },
-    },
-  },
+const pageConfig = {
+  title: "lyc8503's Status Page",
+  links: [
+    { link: 'https://github.com/lyc8503', label: 'GitHub' },
+    { link: 'https://blog.lyc8503.site/', label: 'Blog' },
+    { link: 'mailto:me@lyc8503.site', label: 'Email Me', highlight: true },
+  ],
 }
